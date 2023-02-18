@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gam/ontologies/2022/5/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gam/ontologies/2022/5/untitled-ontology-3">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#class1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#class2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prop1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prop2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#datProp1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#id1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#id2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#id3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#id4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#id5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#id6"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#class1"/>
+        <NamedIndividual IRI="#id1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class1"/>
+        <NamedIndividual IRI="#id2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class1"/>
+        <NamedIndividual IRI="#id3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class2"/>
+        <NamedIndividual IRI="#id4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class2"/>
+        <NamedIndividual IRI="#id5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class2"/>
+        <NamedIndividual IRI="#id6"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id1"/>
+        <NamedIndividual IRI="#id4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id1"/>
+        <NamedIndividual IRI="#id5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id1"/>
+        <NamedIndividual IRI="#id6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id2"/>
+        <NamedIndividual IRI="#id4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id2"/>
+        <NamedIndividual IRI="#id5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id2"/>
+        <NamedIndividual IRI="#id6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id3"/>
+        <NamedIndividual IRI="#id4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id3"/>
+        <NamedIndividual IRI="#id5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop1"/>
+        <NamedIndividual IRI="#id3"/>
+        <NamedIndividual IRI="#id6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id4"/>
+        <NamedIndividual IRI="#id1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id4"/>
+        <NamedIndividual IRI="#id2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id4"/>
+        <NamedIndividual IRI="#id3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id5"/>
+        <NamedIndividual IRI="#id1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id5"/>
+        <NamedIndividual IRI="#id2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id5"/>
+        <NamedIndividual IRI="#id3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id6"/>
+        <NamedIndividual IRI="#id1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id6"/>
+        <NamedIndividual IRI="#id2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prop2"/>
+        <NamedIndividual IRI="#id6"/>
+        <NamedIndividual IRI="#id3"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#prop1"/>
+        <ObjectProperty IRI="#prop2"/>
+    </InverseObjectProperties>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>rule12</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#class1"/>
+                <Variable IRI="x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#datProp1"/>
+                <Variable IRI="x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ruleer123</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#class1"/>
+                <Variable IRI="x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#class2"/>
+                <Variable IRI="y"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#prop1"/>
+                <Variable IRI="x"/>
+                <Variable IRI="y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

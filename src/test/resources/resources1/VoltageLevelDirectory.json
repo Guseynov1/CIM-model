@@ -1,0 +1,162 @@
+[
+  {
+    "directoryId": "1",
+    "value": {
+      "en": "12V",
+      "ru": "12В"
+    },
+    "floatValue": 0.012
+  },
+  {
+    "directoryId": "2",
+    "value": {
+      "en": "24V",
+      "ru": "24В"
+    },
+    "floatValue": 0.024
+  },
+  {
+    "directoryId": "3",
+    "value": {
+      "en": "36V",
+      "ru": "36В"
+    },
+    "floatValue": 0.036
+  },
+  {
+    "directoryId": "4",
+    "value": {
+      "en": "42V",
+      "ru": "42В"
+    },
+    "floatValue": 0.042
+  },
+  {
+    "directoryId": "5",
+    "value": {
+      "en": "127V",
+      "ru": "127В"
+    },
+    "floatValue": 0.127
+  },
+  {
+    "directoryId": "6",
+    "value": {
+      "en": "110V",
+      "ru": "110В"
+    },
+    "floatValue": 0.110
+  },
+  {
+    "directoryId": "7",
+    "value": {
+      "en": "220V",
+      "ru": "220В"
+    },
+    "floatValue": 0.220
+  },
+  {
+    "directoryId": "8",
+    "value": {
+      "en": "380V",
+      "ru": "380В"
+    },
+    "floatValue": 0.380
+  },
+  {
+    "directoryId": "9",
+    "value": {
+      "en": "3kV",
+      "ru": "3кВ"
+    },
+    "floatValue": 3
+  },
+  {
+    "directoryId": "10",
+    "value": {
+      "en": "6kV",
+      "ru": "6кВ"
+    },
+    "floatValue": 6
+  },
+  {
+    "directoryId": "11",
+    "value": {
+      "en": "10kV",
+      "ru": "10кВ"
+    },
+    "floatValue": 10
+  },
+  {
+    "directoryId": "12",
+    "value": {
+      "en": "20kV",
+      "ru": "20кВ"
+    },
+    "floatValue": 20
+  },
+  {
+    "directoryId": "13",
+    "value": {
+      "en": "35kV",
+      "ru": "35кВ"
+    },
+    "floatValue": 35
+  },
+  {
+    "directoryId": "14",
+    "value": {
+      "en": "110kV",
+      "ru": "110кВ"
+    },
+    "floatValue": 110
+  },
+  {
+    "directoryId": "15",
+    "value": {
+      "en": "150kV",
+      "ru": "150кВ"
+    },
+    "floatValue": 150
+  },
+  {
+    "directoryId": "16",
+    "value": {
+      "en": "220kV",
+      "ru": "220кВ"
+    },
+    "floatValue": 220
+  },
+  {
+    "directoryId": "17",
+    "value": {
+      "en": "330kV",
+      "ru": "330кВ"
+    },
+    "floatValue": 330
+  },
+  {
+    "directoryId": "18",
+    "value": {
+      "en": "500kV",
+      "ru": "500кВ"
+    },
+    "floatValue": 500
+  },
+  {
+    "directoryId": "19",
+    "value": {
+      "en": "750kV",
+      "ru": "750кВ"
+    },
+    "floatValue": 750
+  },
+  {
+    "directoryId": "20",
+    "value": {
+      "en": "1150kV",
+      "ru": "1150кВ"
+    },
+    "floatValue": 1150
+  }
+]
