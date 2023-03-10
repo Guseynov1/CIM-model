@@ -5,8 +5,7 @@ import java.io.IOException;
 
 public class CimToFileSaver {
     public static void writeXML(String cimModel){
-        try (FileOutputStream fos = new FileOutputStream(
-                "C:\\Users\\gamza\\IdeaProjects\\CIM\\src\\main\\resources\\cim-model.xml")){
+        try (FileOutputStream fos = new FileOutputStream("C:\\Users\\gamza\\IdeaProjects\\CIM\\src\\main\\resources\\cim-model.xml")){
             byte[] buffer = cimModel.getBytes();
             fos.write(buffer, 0, buffer.length);
             System.out.println("The file is recorded");

@@ -1,8 +1,8 @@
 package ontologies.converter;
 
+import cimmaintainer.dto.Element;
+import cimmaintainer.dto.SingleLineDiagram;
 import lombok.Getter;
-import ontologies.bin.RdfWriter;
-import ontologies.package1.*;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.util.ModelBuilder;
 import org.eclipse.rdf4j.model.vocabulary.RDF;
